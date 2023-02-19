@@ -23,6 +23,7 @@ pipeline {
         stage('Deploy'){
             steps {
                 echo '[JENKINS PIPELINE] : PIPELINE EXECUTED DONE!!'
+                sh exit 1
             }
         }
     }
